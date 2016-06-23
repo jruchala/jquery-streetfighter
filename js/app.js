@@ -29,6 +29,7 @@ $(document).ready(function() {
       if (e.keyCode == 88) {
       
       $('.ryu-still').hide();
+      $('.ryu-ready').hide();
       $('.ryu-cool').show();
       
       }
