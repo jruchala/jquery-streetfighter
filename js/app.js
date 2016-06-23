@@ -25,6 +25,22 @@ $(document).ready(function() {
       $('.ryu-ready').show();
     });
 
+    $(document).keydown(function(e) {
+      if (e.keyCode == 88) {
+      
+      $('.ryu-still').hide();
+      $('.ryu-cool').show();
+      
+      }
+    }).keyup(function(e) {
+      if (e.keyCode == 88){
+        
+
+        $('.ryu-cool').hide();
+        $('.ryu-still').show();
+      }
+    })
+
 }); // end document ready
 
 function playHadouken () {
